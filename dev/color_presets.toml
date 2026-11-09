@@ -1,0 +1,21 @@
+[[presets]]
+name = "LEADHUD"
+primary = 330
+secondary = 235
+accent = 330
+negative = 359
+positive = 165
+[[presets]]
+name = "ONEHUD"
+primary = 15
+secondary = 200
+accent = 40
+negative = 0
+positive = 150
+[[presets]]
+name = "INSOMNIAHUD"
+primary = 210
+secondary = 190
+accent = 25
+negative = 10
+positive = 150
