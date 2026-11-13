@@ -866,7 +866,7 @@
             "armedbgcolor_override"     "FragNegative10"
             "fgcolor"                   "FragNegative100"
             "defaultfgcolor_override"   "FragNegative100"
-            "armedfgcolor_override"     "FragNegative100"
+            "armedfgcolor_override"     "FragNegative100" 
             "roundedcorners"            "0"
         }
 

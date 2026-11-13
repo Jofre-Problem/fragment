@@ -55,8 +55,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_random_inactive"
-		"image_armed"		"class_sel_sm_random_inactive"
+		//"image_default"		"class_sel_sm_random_inactive"
+		//"image_armed"		"class_sel_sm_random_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -88,7 +88,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_random_inactive"
+			//"image"		"class_sel_sm_random_inactive"
 			"scaleImage"	"1"
 		}				
 	}
@@ -145,8 +145,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_scout_inactive"
-		"image_armed"		"class_sel_sm_scout_inactive"
+		//"image_default"		"class_sel_sm_scout_inactive"
+		////"image_armed"		"class_sel_sm_scout_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -179,7 +179,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_scout_inactive"
+			//"image"		"class_sel_sm_scout_inactive"
 			"scaleImage"	"1"
 		}				
 	}
@@ -209,8 +209,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_soldier_inactive"
-		"image_armed"		"class_sel_sm_soldier_inactive"
+		//"image_default"		"class_sel_sm_soldier_inactive"
+		//"image_armed"		"class_sel_sm_soldier_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -243,7 +243,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_soldier_inactive"
+			//"image"		"class_sel_sm_soldier_inactive"
 			"scaleImage"	"1"
 		}				
 	}
@@ -273,8 +273,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_pyro_inactive"
-		"image_armed"		"class_sel_sm_pyro_inactive"
+		//"image_default"		"class_sel_sm_pyro_inactive"
+		//"image_armed"		"class_sel_sm_pyro_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -306,7 +306,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_pyro_inactive"
+			//"image"		"class_sel_sm_pyro_inactive"
 			"scaleImage"	"1"
 		}				
 	}
@@ -362,8 +362,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_demo_inactive"
-		"image_armed"		"class_sel_sm_demo_inactive"
+		//"image_default"		"class_sel_sm_demo_inactive"
+		//"image_armed"		"class_sel_sm_demo_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -395,7 +395,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_demo_inactive"
+			//"image"		"class_sel_sm_demo_inactive"
 			"scaleImage"	"1"
 		}				
 	}	
@@ -424,8 +424,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_heavy_inactive"
-		"image_armed"		"class_sel_sm_heavy_inactive"
+		//"image_default"		"class_sel_sm_heavy_inactive"
+		//"image_armed"		"class_sel_sm_heavy_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -457,7 +457,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_heavy_inactive"
+			//"image"		"class_sel_sm_heavy_inactive"
 			"scaleImage"	"1"
 		}				
 	}
@@ -485,8 +485,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_engineer_inactive"
-		"image_armed"		"class_sel_sm_engineer_inactive"
+		//"image_default"		"class_sel_sm_engineer_inactive"
+		//"image_armed"		"class_sel_sm_engineer_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -518,7 +518,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_engineer_inactive"
+			//"image"		"class_sel_sm_engineer_inactive"
 			"scaleImage"	"1"
 		}				
 	}
@@ -575,8 +575,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_medic_inactive"
-		"image_armed"		"class_sel_sm_medic_inactive"
+		//"image_default"		"class_sel_sm_medic_inactive"
+		//"image_armed"		"class_sel_sm_medic_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -608,7 +608,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_medic_inactive"
+			//"image"		"class_sel_sm_medic_inactive"
 			"scaleImage"	"1"
 		}				
 	}
@@ -638,8 +638,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_sniper_inactive"
-		"image_armed"		"class_sel_sm_sniper_inactive"
+		//"image_default"		"class_sel_sm_sniper_inactive"
+		//"image_armed"		"class_sel_sm_sniper_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -671,7 +671,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_sniper_inactive"
+			//"image"		"class_sel_sm_sniper_inactive"
 			"scaleImage"	"1"
 		}				
 	}
@@ -701,8 +701,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_spy_inactive"
-		"image_armed"		"class_sel_sm_spy_inactive"
+		//"image_default"		"class_sel_sm_spy_inactive"
+		//"image_armed"		"class_sel_sm_spy_inactive"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -734,7 +734,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_spy_inactive"
+			//"image"		"class_sel_sm_spy_inactive"
 			"scaleImage"	"1"
 		}				
 	}	
@@ -900,7 +900,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
+		//"image"		"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}		
@@ -960,7 +960,7 @@
 		"tall"			"90"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -977,7 +977,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_clear"
+		//"image"		"../hud/color_panel_clear"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
 		"teambg_3"		"../hud/color_panel_clear"
@@ -1000,7 +1000,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}							
 	
@@ -1015,7 +1015,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1030,7 +1030,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1045,7 +1045,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1060,7 +1060,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1075,7 +1075,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1090,7 +1090,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1105,7 +1105,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1120,7 +1120,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1135,7 +1135,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1150,7 +1150,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
+		//"image"		""	
 		"scaleImage"	"1"	
 	}
 	
@@ -1365,7 +1365,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
+		//"image"		"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
 	
@@ -1380,7 +1380,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
+		//"image"		"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
 	
@@ -1395,7 +1395,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
+		//"image"		"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
 	
@@ -1410,7 +1410,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
+		//"image"		"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
 	
@@ -1425,7 +1425,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
+		//"image"		"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
 	
@@ -1440,7 +1440,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
+		//"image"		"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
 	
@@ -1455,7 +1455,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
+		//"image"		"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
 	
@@ -1470,7 +1470,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
+		//"image"		"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
 	
@@ -1485,7 +1485,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
+		//"image"		"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
 
@@ -1593,7 +1593,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				//"image"		"close_button"
 				"scaleImage"	"1"
 			}				
 		}
@@ -1765,7 +1765,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				//"image"		"close_button"
 				"scaleImage"	"1"
 			}				
 		}

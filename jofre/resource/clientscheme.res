@@ -6,6 +6,59 @@ Scheme
     }
 	Fonts
 	{
+		"Default"
+		{
+			"1"
+			{
+				"name"	"productsansbold"
+				"tall"	"12"
+				"range"	"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"	"productsansbold"
+				"tall"	"12"
+				"range"	"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"	"productsansbold"
+				"tall"	"14"
+				"range"	"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"	"productsansbold"
+				"tall"	"21"
+				"range"	"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"	"productsansbold"
+				"tall"	"23"
+				"range"	"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"	"productsansbold"
+				"tall"	"12"
+				
+			}
+			"7"
+			{
+				"name"	"productsansbold"
+				"tall"	"12"
+				
+			}
+		}		
         "BetaFont"
 		{
 			"1"
