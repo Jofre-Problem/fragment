@@ -58,7 +58,7 @@
         "wide"                      "f41"
         "tall"                      "6"
         "proportionaltoparent"      "1"
-        "font"                      "FontMedium_9_Additive"
+        "font"                      "ItemFontAttribSmall"
         "allcaps"                   "1"
         "textalignment"             "west"
         "fgcolor"                   "FragNeutral20"

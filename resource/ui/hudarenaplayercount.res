@@ -1,0 +1,1 @@
+#base "../../jofre/resource/ui/hudarenaplayercount.res"

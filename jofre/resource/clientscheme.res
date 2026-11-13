@@ -4,8 +4,53 @@ Scheme
 	{
 		"ItemSetItemMissing"								"255 38 176 255"  // halloween spells label - item set missing color 
     }
+	Borders
+	{
+		cleanup //scrollbar
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/hp/REFRACTnormal"
+			
+			"src_corner_height"		"0"				// pixels inside the image
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}		
+    }	
 	Fonts
 	{
+		"QuestLargeText"
+		{
+			"1"
+			{
+				"name"	"hwnjofre1"
+				"tall"	"16"
+				
+				
+				"antialias"	"1"
+			}
+		}
+
+		"QuestStickyText"
+		{
+			"1"
+			{
+				"name"	"hwnjofre1"
+				"tall"	"20"
+				"antialias"	"1"
+			}
+		}	
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name"			"opensanskillfeed"
+				"tall"			"10"
+				"antialias" 	"1"
+			}
+		}
 		"Default"
 		{
 			"1"
@@ -186,23 +231,23 @@ Scheme
 			}
 		}	
 
-		"ItemFontNameSmall" // name item 
+		"ItemFontNameSmallest"
 		{
 			"1"
 			{
-				"name"			"hwnjofre1"
-				"tall"			"10"
+				"name"	"hwnjofre1"
+				"tall"	"8"
 				"wide" "500"
 				
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 		}
-		"ItemFontNameLarger" // name item 
+		"ItemFontNameLarge" // name item 
 		{
 			"1"
 			{
 				"name"			"hwnjofre1"
-				"tall"			"10"
+				"tall"			"9"
 				"wide" "500"
 				
 				"antialias" 	"1"

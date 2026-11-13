@@ -1,1 +1,12 @@
 exec frag_autoexec
+tf_time_loading_item_panels 0.0005
+exec hud/hud_always.cfg
+exec hud/hud_always2.cfg
+    // Allow menu backgrounds to display randomly by unlocking all chapters
+    // Default: 1
+sv_unlockedchapters 1
+// demos
+ds_log 1
+vgui_cache_res_files 1
+tf_mm_dashboard_slide_panel_step 14
+sv_pure -1

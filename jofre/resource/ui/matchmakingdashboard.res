@@ -22,8 +22,8 @@
 				
             "defaultbgcolor_override"   "0 0 0 100"
             "armedbgcolor_override"     "FragNegative10"
-            "fgcolor"                   "FragNegative100"
-            "defaultfgcolor_override"   "FragNegative100"
+            "fgcolor"                   "FragSecondary100"
+            "defaultfgcolor_override"   "FragSecondary100"
             "armedfgcolor_override"     "FragNegative100"
             "roundedcorners"            "0"
 		"paintbackground""1"
@@ -51,8 +51,8 @@
                     
                 "defaultbgcolor_override"   "0 0 0 100"
                 "armedbgcolor_override"     "FragNegative10"
-                "fgcolor"                   "FragNegative100"
-                "defaultfgcolor_override"   "FragNegative100"
+                "fgcolor"                   "FragSecondary100"
+                "defaultfgcolor_override"   "FragSecondary100"
                 "armedfgcolor_override"     "FragNegative100"
                 "roundedcorners"            "0"
             "paintbackground""1"

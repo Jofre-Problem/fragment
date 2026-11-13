@@ -6,7 +6,7 @@
         "fieldName"                 "Background"
         "xpos"                      "0"
         "ypos"                      "0"
-        "zpos"                      "0"
+        "zpos"                      "-10"
         "wide"                      "f0"
         "tall"                      "480"
         "bgcolor_override"          "0 0 0 255"

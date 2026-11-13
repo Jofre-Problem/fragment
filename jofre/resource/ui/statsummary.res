@@ -1,0 +1,353 @@
+#base "../../../frag/resource/ui/_leadbg.res"
+#base "ui2/tank_gif.res"
+#base "statsummary_embedded.res"
+"Resource/UI/StatSummary.res"
+{
+	"TFStatsSummary"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"TFStatsSummary"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"		"10000"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+	}
+	"backgroundeffect"
+	{
+		"zpos"		"0"
+	}	
+	"OnYourWayLabel"
+	{
+		"visible"		"0"
+	}
+
+					"LogoImage"
+					{
+					"ControlName""ImagePanel"
+					"fieldName""LogoImage"
+					"xpos""rs1"
+					"ypos""rs1-36"
+					"wide""280"
+					"tall""o1"
+					visible 0
+					zpos 2000
+					//"image""replay/thumbnails/spray"
+					"scaleImage""1"
+					}		
+		"MOTD_Panel"	{	
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MOTD_Panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1010"
+		"wide"			"f0"
+		"tall"			"f0"
+		"border"	"noborder"
+		"labeltext"	"0"
+		"bgcolor_override"	"blank"
+							"LogoImage"
+					{
+					"ControlName""ImagePanel"
+					"fieldName""LogoImage"
+					"xpos""rs1"
+					"ypos""rs1-36"
+					"wide""280"
+					"tall""o1"
+
+					"image""replay/thumbnails/spray_24"
+					"scaleImage""1"
+					}		}	
+								
+	"MainBackground"
+	{
+		"tall"			"0"
+	}	
+
+	"MapInfo"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MapInfo"
+		"xpos"				"0"
+		"ypos"				"-22"
+		"zpos"				"1100"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"blank"
+
+	
+		"Background"
+		{
+			"xpos"			"-9999"	
+			"visible"			"0"
+		}
+
+		"MapImage"
+		{
+			"visible"			"0"
+			"xpos"			"-9999"	
+		}
+		"ContributedLabel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"	"ContributedLabel"
+			"xpos"			"0"
+			"ypos"			"150"
+			"zpos"			"40"
+			"wide"			"f0"
+			"tall"			"50"
+			"visible"		"0"
+			//"enabled"		"1"
+	
+			"BG"
+			{
+				"ControlName"	"Panel"
+				"visible"		"0"
+			}
+	
+			"ActualLabel" // thanks jfore
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"ActualLabel"
+				"font"			"DefaultVerySmall"
+				"labelText"		"#TF_Contributed"
+				"textAlignment"	"center"
+				"fgcolor"		"ItemAttribLevel"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"40"
+				"wide"			"f0"
+				"tall"			"30"
+				////
+				
+				"visible"		"1"
+				//"enabled"		"1"
+				"centerwrap"	"0"
+				
+			}					
+		}
+		"Title"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Title"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%title%"
+			"textAlignment"	"west"
+			"xpos"			"-9999"
+			"ypos"			"130"
+			"zpos"			"2"
+			"wide"			"245"
+			"tall"			"30"
+			////
+			
+			"visible"		"1"
+			//"enabled"		"1"
+			"fgcolor" "255 181 50 255"
+		}
+		"MapAuthors"
+		{
+			"ControlName"	"panel"
+			"visible"		"0"	
+		}
+
+		"MapLeaderboardTitle"
+		{
+			"ControlName"	"panel"
+			"visible"		"0"	
+		}
+	}		
+	"OnYourWayLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"OnYourWayLabel"
+		"font"			"ItemFontAttribSmallv2"
+		"labelText"		"#LoadingMap"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"4501"
+		"wide"			"f0"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor_override" "yellow"
+	}		
+
+	
+
+	"MapLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"MapLabel"
+		"font"			"ItemFontNameLarger"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"0"
+	"zpos"	"1010"
+		"wide"				"f0"
+		"tall"				"24"
+		"AllCaps"			"1"
+		"fgcolor_override"	"Normal"
+		"bgcolor_override"	"ItemAttribLevel"
+				"proportionaltoparent"	"1"
+		"text_center"			"1"
+		"textinsetx"			"28"
+				"auto_wide_tocontents" "1"
+		"labelText" "%maplabel%"
+		"pin_to_sibling" "ExampleAnchor"
+        "pin_corner_to_sibling" "4"
+        "pin_to_sibling_corner" "4"
+	}
+	"ExampleAnchor"
+    {
+        "ControlName"     "EditablePanel"
+        "fieldName"     "ExampleAnchor"
+        "xpos"             "0"
+        "ypos"             "50"
+        "wide"             "f0"
+        "tall"             "1"
+        "visible"         "1"
+        "enabled"         "1"
+    }	
+	"MapType"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapType"
+		"font"			"itemfontnamelarge"
+		"labelText"		"%maptype%"
+		"textAlignment"	"center"
+		"xpos"			"cs-0.5"
+		"ypos"			"75"
+		"zpos"	"1010"
+		"tall"			"20"
+		////
+		
+		"visible"		"1"
+		//"enabled"		"1"
+		"fgcolor" 		"ItemAttribLevel"
+	}			
+	"TipImage"
+	{
+		"visible"				"0"
+	}
+	"StatData"
+	{
+		"ypos" "-60"
+		"zpos"	"5000"
+
+		"BarChartCustomBG"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassBar1A"
+		{
+			"xpos"	"cs-1-10"
+		}
+		"ClassBar1B"
+		{
+			"xpos"	"c10"
+		}
+		"ClassLabel1"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel2"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel3"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel4"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel5"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel6"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel7"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel8"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel9"
+		{
+			"xpos"	"cs-0.5"
+		}
+
+		"NonInteractiveHeaders"
+		{
+			"BarChartLabelA"	{"xpos"	"9999"}
+			"BarChartLabelB"	{"xpos"	"9999"}
+			"OverallRecordLabel"	{"xpos"	"9999"}
+		}
+		"TFLabel"	{"xpos"	"9999"}
+		"RecordsSubBG1"	{"xpos"	"9999"}
+		"OverallRecord1Label"	{"xpos"	"9999"}
+		"OverallRecord1Value"	{"xpos"	"9999"}
+		"OverallRecord2Label"	{"xpos"	"9999"}
+		"OverallRecord2Value"	{"xpos"	"9999"}
+		"OverallRecord3Label"	{"xpos"	"9999"}
+		"OverallRecord3Value"	{"xpos"	"9999"}
+		"OverallRecord4Label"	{"xpos"	"9999"}
+		"OverallRecord4Value"	{"xpos"	"9999"}
+		"OverallRecord5Label"	{"xpos"	"9999"}
+		"OverallRecord5Value"	{"xpos"	"9999"}
+		"OverallRecord6Label"	{"xpos"	"9999"}
+		"OverallRecord6Value"	{"xpos"	"9999"}
+		"OverallRecord7Label"	{"xpos"	"9999"}
+		"OverallRecord7Value"	{"xpos"	"9999"}
+		"OverallRecord8Label"	{"xpos"	"9999"}
+		"OverallRecord8Value"	{"xpos"	"9999"}
+		"OverallRecord9Label"	{"xpos"	"9999"}
+		"OverallRecord9Value"	{"xpos"	"9999"}
+		"OverallRecord10Label"	{"xpos"	"9999"}
+		"OverallRecord10Value"	{"xpos"	"9999"}
+		"OverallRecord11Label"	{"xpos"	"9999"}
+		"OverallRecord11Value"	{"xpos"	"9999"}
+		"OverallRecord12Label"	{"xpos"	"9999"}
+		"OverallRecord12Value"	{"xpos"	"9999"}
+		"OverallRecord13Label"	{"xpos"	"9999"}
+		"OverallRecord13Value"	{"xpos"	"9999"}
+		"OverallRecord14Label"	{"xpos"	"9999"}
+		"OverallRecord14Value"	{"xpos"	"9999"}
+		"OverallRecord15Label"	{"xpos"	"9999"}
+		"OverallRecord15Value"	{"xpos"	"9999"}
+	}
+	"TIPCustomBG"	{"xpos"	"9999"}
+	"NextTipButtonCustom"	{"xpos"	"9999"}
+
+	"ResetStatsButton"
+	{
+		"ControlName"		"Button"
+		"fieldName"			"ResetStatsButton"
+		"xpos"				"9999"
+	}
+	"CloseButton" 
+	{
+		"ControlName"		"Button"
+		"fieldName"		"CloseButton"
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"zpos"	"1100"
+		"wide"			"f0"
+		"tall"			"36"
+		"visible"		"0"
+		"font"	"HudFontSmallishBold"
+		"labelText"		"Credits to: JarateKing, Hypnotize, Peaches, Lead, Yellow Devil, Sgtjoe, etc"
+		"textAlignment"	"center"
+		"Command"		"vguicancel"
+	}
+}

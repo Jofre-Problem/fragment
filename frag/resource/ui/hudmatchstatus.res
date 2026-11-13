@@ -60,7 +60,7 @@
 
     "BGFrame"
     {
-        "ypos"                      "5"
+        "ypos"                      "0"
         "wide"                      "630"
         "tall"                      "20"
         "border"                    "NoBorder"
@@ -73,7 +73,7 @@
             "xpos"                  "0"
             "ypos"                  "0"
             "wide"                  "f0"
-            "tall"                  "f0"
+            "tall"                  "3"
             "proportionaltoparent"  "1"
             "bgcolor_override"      "FragPanelTransparentDark60"
         }
@@ -164,7 +164,7 @@
     "TeamStatus"
     {
         "xpos"                      "0"
-        "ypos"                      "5"
+        "ypos"                      "0"
         "tall"                      "40"
 
         "min_size"                  "20"
@@ -254,15 +254,36 @@
 
             // DISABLED
 
-            "playername"
-            {
-                "xpos"          "9999"
-                "ypos"          "9999"
-                "wide"          "0"
-                "tall"          "0"
-                "visible"       "0"
-                "enabled"       "0"
-            }
+			"playername"
+			{
+				"fieldName"		"playername"
+				"font"			"Default"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"50"
+				"wide"								"f0"
+				"tall"								"12"
+				"visible"							"1"
+				"textinsetx"						"1"
+				"labelText"							"%playername%"
+				"textAlignment"						"center"
+				"bgcolor_override"					"30 30 30 255"
+				"proportionaltoparent"				"1"
+				"alpha"								"255"
+			"ControlName"	"CAutoFittingLabel"
+				"auto_tall_tocontents" "1"
+
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"customverdanasmall"
+			}
+				"pin_to_sibling"					"respawntime"
+				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
+			}
             "HealthIcon"
             {
                 "xpos"          "9999"

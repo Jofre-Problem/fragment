@@ -1,0 +1,1 @@
+#base "../../jofre/resource/ui/statsummary_embedded.res"

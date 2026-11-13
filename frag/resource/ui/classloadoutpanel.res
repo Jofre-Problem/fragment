@@ -183,7 +183,7 @@
         "tall"                          "f0"
         "auto_tall_tocontents"          "1"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12_Additive"
+        "font"                          "QuestStickyText"
         "textAlignment"                 "west"
         "allcaps"                       "1"
 

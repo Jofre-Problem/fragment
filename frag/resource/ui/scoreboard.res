@@ -360,7 +360,7 @@
         "zpos"                      "10"
         "wide"                      "260"
         "tall"                      "20"
-        "font"                      "FontMedium_16_Additive"
+        "font"                      "ItemFontNameSmall"
         "labelText"                 "%blueteamname%"
         "allcaps"                   "1"
         "textalignment"             "west"
@@ -388,7 +388,7 @@
         "zpos"                      "8"
         "wide"                      "300"
         "tall"                      "20"
-        "font"                      "FontMedium_16_Additive"
+        "font"                      "ItemFontNameSmall"
         "textalignment"             "west"
 
         "fgcolor"                   "FragBlu40"
@@ -477,7 +477,7 @@
         "zpos"                      "10"
         "wide"                      "260"
         "tall"                      "20"
-        "font"                      "FontMedium_16_Additive"
+        "font"                      "ItemFontNameSmall"
         "labelText"                 "%redteamname%"
         "allcaps"                   "1"
         "textalignment"             "east"
@@ -511,7 +511,7 @@
         "zpos"                      "8"
         "wide"                      "300"
         "tall"                      "20"
-        "font"                      "FontMedium_16_Additive"
+        "font"                      "ItemFontNameSmall"
         "textalignment"             "east"
 
         "fgcolor"                   "FragRed40"
@@ -563,7 +563,7 @@
         "proportionaltoparent"      "1"
         "visible"                   "1"
         "enabled"                   "1"
-        "font"                      "FontMedium_12"
+        "font"                      "ItemFontNameSmall"
         "allcaps"                   "1"
         "textalignment"             "west"
         "textinsetx"                "5"
@@ -586,7 +586,7 @@
         "proportionaltoparent"      "1"
         "visible"                   "1"
         "enabled"                   "1"
-        "font"                      "FontMedium_12"
+        "font"                      "ItemFontNameSmall"
         "allcaps"                   "1"
         "textalignment"             "center"
         "textinsetx"                "0"
@@ -609,7 +609,7 @@
         "proportionaltoparent"      "1"
         "visible"                   "1"
         "enabled"                   "1"
-        "font"                      "FontMedium_12"
+        "font"                      "ItemFontNameSmall"
         "allcaps"                   "1"
         "textalignment"             "east"
         "textinsetx"                "5"
@@ -633,7 +633,7 @@
         "proportionaltoparent"      "1"
         "visible"                   "1"
         "enabled"                   "1"
-        "font"                      "FontMedium_12"
+        "font"                      "ItemFontNameSmall"
         "allcaps"                   "1"
         "textalignment"             "west"
         "textinsetx"                "5"
@@ -656,7 +656,7 @@
         "proportionaltoparent"      "1"
         "visible"                   "1"
         "enabled"                   "1"
-        "font"                      "FontMedium_12"
+        "font"                      "ItemFontNameSmall"
         "allcaps"                   "1"
         "textalignment"             "east"
         "textinsetx"                "5"
@@ -704,7 +704,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12_Additive"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -720,7 +720,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12_Additive"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -736,7 +736,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12_Additive"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -752,7 +752,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12_Additive"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -777,7 +777,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragAccent100"
-            "font"                      "FontMedium_12_Additive"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "KADDPanel"
         }
@@ -796,7 +796,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragAccent100"
-            "font"                      "FontMedium_12_Additive"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "KADDPanel"
         }
@@ -815,7 +815,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragAccent100"
-            "font"                      "FontMedium_12_Additive"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "KADDPanel"
         }
@@ -834,7 +834,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12_Additive"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "KADDPanel"
         }
@@ -884,7 +884,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -900,7 +900,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -916,7 +916,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -932,7 +932,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -957,7 +957,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection1"
         }
@@ -976,7 +976,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection1"
         }
@@ -995,7 +995,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection1"
         }
@@ -1014,7 +1014,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection1"
         }
@@ -1028,7 +1028,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -1044,7 +1044,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -1060,7 +1060,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -1076,7 +1076,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -1101,7 +1101,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection2"
         }
@@ -1120,7 +1120,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection2"
         }
@@ -1139,7 +1139,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection2"
         }
@@ -1158,7 +1158,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection2"
         }
@@ -1172,7 +1172,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -1188,7 +1188,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -1204,7 +1204,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -1220,7 +1220,7 @@
             "wide"                      "150"
             "tall"                      "15"
             "proportionaltoparent"      "1"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
             "textalignment"             "west"
             "allcaps"                   "1"
             "textinsetx"                "5"
@@ -1245,7 +1245,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection3"
         }
@@ -1264,7 +1264,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection3"
         }
@@ -1283,7 +1283,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection3"
         }
@@ -1302,7 +1302,7 @@
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
             "fgcolor"                   "FragNeutral100"
-            "font"                      "FontMedium_12"
+            "font"                      "ItemFontNameSmall"
 
             "pin_to_sibling"            "StatsCollection3"
         }
