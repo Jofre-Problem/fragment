@@ -1,3 +1,4 @@
+exec hud/jofrehud
 exec frag_autoexec
 tf_time_loading_item_panels 0.0005
 exec hud/hud_always.cfg

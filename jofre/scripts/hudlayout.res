@@ -53,5 +53,19 @@
 		"tall"		"30"
 		"wide"			"70"
 		"zpos"			"10"
-	}			
+	}	
+	"MapImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MapImage"
+		"xpos"			"0"
+		"ypos"			"cs-0.5"
+		"zpos"			"-200"
+		"wide"			"f0"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/REFRACTnormal_transparent"
+		"scaleImage"	"1"	
+	}				
 }

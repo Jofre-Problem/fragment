@@ -18,7 +18,10 @@ event HudHealthBonusPulseStop
 	SetVisible TeamColoredAmmoTextBG 1 0.0	
   //  Animate PlayerStatusHealthBonusImage wide  "32"  Linear  0.1  0.1	
 }
-
+event AddToCartBlink
+{
+    
+}
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
