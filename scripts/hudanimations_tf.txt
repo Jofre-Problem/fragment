@@ -99,12 +99,12 @@ event ResourcePickup
 event HintMessageShow
 {
     Animate    HudHintDisplay    HintSize    1                  DeAccel    0.0     0.3
-    Animate    HudHintDisplay    FgColor     FgColor            Linear     0.4     0.4
-    Animate    HudHintDisplay    FgColor     FgColor            Linear     1.5     0.01
+    Animate    HudHintDisplay    FgColor     FragNeutral100            Linear     0.4     0.4
+    Animate    HudHintDisplay    FgColor     FragNeutral100            Linear     1.5     0.01
     Animate    HudHintDisplay    FgColor     "255 220 0 255"    Linear     2.0     0.2
-    Animate    HudHintDisplay    FgColor     FgColor            Linear     2.2     0.2
+    Animate    HudHintDisplay    FgColor     FragNeutral100            Linear     2.2     0.2
     Animate    HudHintDisplay    FgColor     "255 220 0 255"    Linear     3.0     0.2
-    Animate    HudHintDisplay    FgColor     FgColor            Linear     3.2     0.2
+    Animate    HudHintDisplay    FgColor     FragNeutral100            Linear     3.2     0.2
     Animate    HudHintDisplay    FgColor     "255 220 0 0"      Linear     10.0    0.2
     Animate    HudHintDisplay    HintSize    0                  DeAccel    10.2    0.3
 }
@@ -118,11 +118,11 @@ event HintMessageHide
 event KeyHintMessageShow
 {
     Animate    HudHintKeyDisplay    Alpha      255                Linear    0.0     0.5
-    Animate    HudHintKeyDisplay    FgColor    FgColor            Linear    0.0     0.01
+    Animate    HudHintKeyDisplay    FgColor    FragNeutral100            Linear    0.0     0.01
     Animate    HudHintKeyDisplay    FgColor    "255 220 0 255"    Linear    0.5     0.2
-    Animate    HudHintKeyDisplay    FgColor    FgColor            Linear    0.7     0.2
+    Animate    HudHintKeyDisplay    FgColor    FragNeutral100            Linear    0.7     0.2
     Animate    HudHintKeyDisplay    FgColor    "255 220 0 255"    Linear    1.5     0.2
-    Animate    HudHintKeyDisplay    FgColor    FgColor            Linear    1.7     0.2
+    Animate    HudHintKeyDisplay    FgColor    FragNeutral100            Linear    1.7     0.2
     Animate    HudHintKeyDisplay    Alpha      0                  Linear    12.0    1.0
 }
 

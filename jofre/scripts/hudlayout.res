@@ -54,7 +54,7 @@
 		"wide"			"70"
 		"zpos"			"10"
 	}	
-	"MapImage"
+	"ViewmodelRefract"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
@@ -67,5 +67,82 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACTnormal_transparent"
 		"scaleImage"	"1"	
-	}				
+	}	
+	HudHintDisplay
+    {
+        "fieldName"                                "HudHintDisplay"
+        "visible"                                "0"
+        "enabled"                                "1"
+        "xpos"                                        "cs-0.5-250"
+        "ypos"                                        "c100"
+        "wide"                                        "420"
+        "tall"                                        "100"
+        "HintSize"                                "1"
+        "text_xpos"                                "8"
+        "text_ypos"                                "8"
+		"bgcolor_override" "blank"
+        "center_x"                                "0"        // center text horizontally
+        "center_y"                                "-1"        // align text on the bottom
+    }        
+    HudHintKeyDisplay
+    {
+        "fieldName"				"HudHintKeyDisplay"
+        "visible"				"0"
+        "enabled"				"1"
+        "xpos"					"r120"
+        "ypos"					"r340"
+        "wide"					"100"
+        "tall"					"200"
+        "text_xpos"				"8"
+        "text_ypos"				"8"
+        "text_xgap" 			"8"
+        "text_ygap"       			"8"
+        "TextColor"        			"FragNeutral100"
+        "PaintBackgroundType"        "3"
+    }			
+	HudMenu
+	{
+		"fieldName" "HudMenu"
+		"visible" "1"
+		"enabled" "1"
+		xpos 0
+		ypos 0
+		"wide"	 "400"
+		"tall"	 "400"
+		"zpos" "1"
+
+	//	"TextFont"				"MenuSmallestFont"
+	//	"ItemFont"				"MenuSmallestFont"
+	//	"ItemFontPulsing"		"MenuSmallestFont"
+	}
+
+	HudVoiceStatus
+	{
+
+		"visible" 			"1"
+		"enabled" 			"1"
+		"xpos" 				"r145"
+		"ypos" 				"-59"
+		"wide" 				"145"
+		"tall" 				"400"
+		"item_wide"			"119"
+		"show_avatar"		"1"
+		"avatar_xpos"		"108"
+		"avatar_tall"		"17"
+		"show_dead_icon"	"1"
+		"dead_xpos"			"1"
+		"dead_ypos"			"0"
+		"dead_wide"			"16"
+		"dead_tall"			"16"
+		"show_voice_icon"	"1"
+		"icon_ypos"			"0"
+		"icon_xpos"			"15"
+		"icon_tall"			"16"
+		"icon_wide"			"16"
+		"text_xpos"			"33"
+	
+		"fade_in_time"			"0.06"
+		"fade_out_time"			"0.5"
+	}
+
 }

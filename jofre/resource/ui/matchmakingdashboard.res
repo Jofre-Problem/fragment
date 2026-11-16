@@ -57,6 +57,33 @@
                 "roundedcorners"            "0"
             "paintbackground""1"
         }
+        "MVM"
+        {
+            "ControlName"		"CExImageButton"
+            "fieldName"			"MVM"
+            "xpos""rs1-160"
+            "ypos""0"
+            "zpos""5001"
+            "wide""40"
+            "tall""20"
+            "font""HudFontMediumSecondary"
+            "textAlignment""center"
+            "command""PlayMvM_MannUp"
+            "proportionaltoparent""1"
+            "labeltext""Ǡ"
+            "mouseinputenabled""1"
+            "keyboardinputenabled""0"
+            "actionsignallevel""2"
+            "textinsety" "-6"
+                    
+                "defaultbgcolor_override"   "0 0 0 100"
+                "armedbgcolor_override"     "FragNegative10"
+                "fgcolor"                   "FragSecondary100"
+                "defaultfgcolor_override"   "FragSecondary100"
+                "armedfgcolor_override"     "FragNegative100"
+                "roundedcorners"            "0"
+            "paintbackground""1"
+        }        
     }
 
 }

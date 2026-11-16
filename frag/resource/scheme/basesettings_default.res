@@ -32,8 +32,8 @@
         "Menu.ArmedBgColor"                 "FragPanelOpaque20"
 
         "ItemColor"                         "FragNeutral100"
-        "ItemColor"                         "FragNeutral100"
-        "ItemColor"                         "FragPanelOpaque60"
+    //    "ItemColor"                         "FragNeutral100"
+    //    "ItemColor"                         "FragPanelOpaque60"
 
         "ToggleButton.SelectedTextColor"    "FragPrimary100"
 

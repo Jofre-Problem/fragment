@@ -353,7 +353,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Presets"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -392,7 +396,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "Presets"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -423,7 +431,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -487,7 +495,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -549,7 +557,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -612,7 +620,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -753,7 +761,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Graphics Model Quality"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -792,7 +804,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Graphics Model Quality"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -823,7 +839,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low2"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -887,7 +903,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -950,7 +966,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1013,7 +1029,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1128,7 +1144,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Lighting"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -1167,7 +1187,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Lighting"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -1198,7 +1222,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1262,7 +1286,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1325,7 +1349,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1388,7 +1412,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1451,7 +1475,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1575,7 +1599,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Shading"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -1614,7 +1642,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Shading"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -1645,7 +1677,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1709,7 +1741,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1772,7 +1804,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shading: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -1886,7 +1918,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Phong Shading"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -1925,7 +1961,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Phong Shading"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -1956,7 +1996,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2020,7 +2060,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: ON"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2083,7 +2123,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                          "Phong Shading: Rim"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2201,7 +2241,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Shadows"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -2240,7 +2284,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Shadows"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -2271,7 +2319,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shadows: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2335,7 +2383,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Shadows: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2398,7 +2446,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Shadows: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2461,7 +2509,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Shadows: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2524,7 +2572,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shadows: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2610,7 +2658,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Effects"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -2649,7 +2701,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Effects"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -2680,7 +2736,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Effects: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2744,7 +2800,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Effects: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2807,7 +2863,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Effects: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2870,7 +2926,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Effects: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -2933,7 +2989,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Effects: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3045,7 +3101,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Tracers"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -3084,7 +3144,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Tracers"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -3115,7 +3179,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Tracers: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3179,7 +3243,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Tracers: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3241,7 +3305,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Tracers: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3329,7 +3393,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Water"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -3368,7 +3436,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Water"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -3399,7 +3471,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Water: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3463,7 +3535,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Water: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3526,7 +3598,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Water: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3589,7 +3661,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Water: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3652,7 +3724,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Water: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3747,7 +3819,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Post Processing"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -3786,7 +3862,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "PostProcessing"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -3817,7 +3897,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3881,7 +3961,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                          "Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -3944,7 +4024,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Default"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4007,7 +4087,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Calm"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4069,7 +4149,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Vivid"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4132,7 +4212,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Washed"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4197,7 +4277,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Dreamy"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4297,7 +4377,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Motion Blur"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -4336,7 +4420,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Motion Blur"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -4367,7 +4455,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4431,7 +4519,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: Refract"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4493,7 +4581,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4557,7 +4645,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4656,7 +4744,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Characters"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -4695,7 +4787,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Characters"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -4726,7 +4822,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Characters: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4789,7 +4885,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Characters: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4850,7 +4946,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Characters: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -4914,7 +5010,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Characters: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5026,7 +5122,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Decals"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -5065,7 +5165,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Controls bullet holes and overall decal support."
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -5096,7 +5200,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Decals: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5160,7 +5264,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Decals: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5223,7 +5327,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Decals: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5286,7 +5390,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Decals: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5349,7 +5453,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Decals: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5460,7 +5564,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Decals Models"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -5499,7 +5607,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Decals Models"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -5530,7 +5642,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Decals Models: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5594,7 +5706,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Decals Models: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5656,7 +5768,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Decals Models: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5719,7 +5831,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Decals Models: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5808,7 +5920,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Sprays"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -5847,7 +5963,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Sprays"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -5878,7 +5998,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Sprays: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -5942,7 +6062,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Sprays: ON"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6003,7 +6123,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Sprays: KEEP ALL"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6124,7 +6244,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Silly Gibs"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -6163,7 +6287,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "silly!"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -6194,7 +6322,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Silly Gibs: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6258,7 +6386,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Silly Gibs: ON"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6348,7 +6476,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "gibs"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -6387,7 +6519,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "gibs"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -6418,7 +6554,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Gibs: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6482,7 +6618,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Gibs: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6543,7 +6679,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Gibs: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6626,7 +6762,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Props"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -6665,7 +6805,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "props"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -6696,7 +6840,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Props: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6760,7 +6904,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Props: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6821,7 +6965,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Props: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -6917,7 +7061,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Ragdoll"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -6956,7 +7104,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Ragdoll"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -6987,7 +7139,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Ragdoll: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7051,7 +7203,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Ragdoll: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7112,7 +7264,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Ragdoll: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7203,7 +7355,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Jigglebones"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -7242,7 +7398,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "jigglebones"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -7273,7 +7433,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Jigglebones: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7337,7 +7497,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Jigglebones: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7398,7 +7558,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Jigglebones: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7476,7 +7636,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Texture Quality"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -7517,7 +7681,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7581,7 +7745,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7642,7 +7806,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7703,7 +7867,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Very High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -7764,7 +7928,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -8157,7 +8321,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "General"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -8196,7 +8364,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "general"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -8227,7 +8399,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -8291,7 +8463,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -8353,7 +8525,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -8416,7 +8588,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -8557,11 +8729,19 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Scout"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"                        
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        
+   
                         
 
                         
@@ -8596,7 +8776,12 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Graphics Model Quality"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
+                                
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -8627,7 +8812,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -8691,7 +8876,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -8754,7 +8939,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -8817,7 +9002,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -8932,7 +9117,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Soldier"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -8971,7 +9160,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Lighting"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -9002,7 +9195,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9066,7 +9259,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9129,7 +9322,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9192,7 +9385,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9255,7 +9448,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9379,7 +9572,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Pyro"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -9418,7 +9615,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Shading"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -9449,7 +9650,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9513,7 +9714,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9576,7 +9777,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shading: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9690,7 +9891,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Demoman"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -9729,7 +9934,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Phong Shading"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -9760,7 +9969,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9824,7 +10033,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: ON"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -9887,7 +10096,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                          "Phong Shading: Rim"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10005,7 +10214,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Heavy"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -10044,7 +10257,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Shadows"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -10075,7 +10292,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shadows: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10139,7 +10356,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Shadows: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10202,7 +10419,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Shadows: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10265,7 +10482,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Shadows: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10328,7 +10545,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shadows: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10414,7 +10631,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Engineer"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -10453,7 +10674,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Effects"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -10484,7 +10709,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Effects: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10548,7 +10773,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Effects: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10611,7 +10836,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Effects: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10674,7 +10899,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Effects: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10737,7 +10962,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Effects: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10849,7 +11074,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Medic"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -10888,7 +11117,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Tracers"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -10919,7 +11152,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Tracers: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -10983,7 +11216,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Tracers: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11045,7 +11278,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Tracers: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11134,7 +11367,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Sniper"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -11176,7 +11413,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Crouch Jump (Spacebar)"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11255,7 +11492,7 @@
                                     "controlname"                                   "imagepanel"
                                     "fieldname"                                   "classic"
                                     "xpos"                                   "0"
-                                    "ypos"                                   "0"
+                                    "ypos"                                   "20"
                                     "wide"                                  "40"
                                     "tall"                                   "o1"
                                     "proportionaltoparent"                                   "1"
@@ -11272,9 +11509,9 @@
                                 "tall"                             "20"
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
-                            "labeltext"                           "Crouch Jump (Spacebar)"
+                            "labeltext"                           "Classic Script"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11288,7 +11525,7 @@
 								"actionsignallevel" "9"
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
-                               "command"   "engine bind space +crouchjump"
+                               "command"   "engine exec +classic; play hl1/fvox/activated.wav"
 							     
                                  
                                 
@@ -11320,7 +11557,7 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            "ɡ"
                                 "font" "itemfontnamesmall"
-                               "command"   "engine bind space +jump"
+                               "command"   "engine bind mouse1 +attack; play hl1/fvox/deactivated.wav"
 							     
                                  
                                 
@@ -11408,7 +11645,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Spy"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -11447,7 +11688,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Motion Blur"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -11478,7 +11723,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11542,7 +11787,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: Refract"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11604,7 +11849,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11668,7 +11913,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11772,7 +12017,11 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Mann Vs. Machine"
-                        "font"                      "HudFontMediumSmallSecondary"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -11811,7 +12060,11 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Motion Blur"
-                                "font"                      "HudFontSmallishBold"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -11842,7 +12095,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11906,7 +12159,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: Refract"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -11968,7 +12221,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -12032,7 +12285,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "Fragaccent100"
          
                             }
                             "profilebutton" {
@@ -12073,6 +12326,425 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	"sourcemod"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "sourcemod"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "20"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""65"
+					  "expanded_height""65"
+					
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "5"
+                        "ypos"                      "0"
+                        "wide"                      "f10"
+                        "tall"                      "19"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Sourcemod General"
+                                                "font"                      "HudFontMediumSmallSecondary"
+"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"  
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        
+                        
+
+                        
+                    }
+
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "40"
+                        "proportionaltoparent"      "1"
+					     "whatitslabel"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "whatitslabel"
+                            "xpos"                      "0"
+                            "ypos"                      "0"
+                            "wide"                      "f0"
+                            "tall"                      "20"
+                            "proportionaltoparent"      "1"
+
+                            "whatitslabelButton"
+                            {
+                                "ControlName"               "CExButton"
+                                "fieldName"                 "whatitslabelButton"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "f1"
+                                "proportionaltoparent"      "1"
+                                "labelText"                  "Motion Blur"
+                                                                "font"                      "HudFontSmallishBold"
+                                					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100" 
+                                "textinsetx"                "5"
+                                "use_proportional_insets"   "1"
+                                "allcaps"                   "1"
+                                
+                                
+                                
+
+                            }
+                        }	
+						 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0"
+                          "ypos"                          "20"
+                            "wide"                           "f0"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+
+                            "name" {                            "controlname"
+                                "cexlabel"
+                                "fieldname"                              "name"
+                                "xpos"                              "10"
+                                "ypos"                            "0"
+                                "wide" "f0"
+                                "tall"                             "20"
+                                "proportionaltoparent"                            "1"
+                                "mouseinputenabled"                            "0"
+                            "labeltext"                           "Motion Blur: OFF"
+                                "font"                          "HudFontMediumSmallSecondary"
+                                "fgcolor_override"                              "Fragaccent100"
+         
+                            }
+                            "profilebutton" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "profilebutton"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "p0.25""actionsignallevel" "9"
+                             "tall"                            "f1"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "9"
+								defaultbgcolor_override "TransparentBlack"
+                                "labeltext"                            ""
+                               "command"   "engine mat_motion_blur_enabled 0;alias motion_blur_level echo motion_blur=off"
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+                        }
+   "1" {
+                            "controlname"                          "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0+p0.25"
+                          "ypos"                          "20"
+                            "wide"                           "p0.25"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+                            "bgpanel0" {
+                                "controlname"                              "editablepanel"
+                                "fieldname"                               "bgpanel0"
+                                "xpos"                               "5"
+                                "ypos"                              "0"
+                                "wide"                             "f10"
+                                "tall"                             "f1"
+                                "proportionaltoparent"                             "1"
+                                "mouseinputenabled"                            "0"
+                                "bgcolor_override"                            "0 0 0 255"
+                            }
+                            "name" {                            "controlname"
+                                "cexlabel"
+                                "fieldname"                              "name"
+                                "xpos"                              "10"
+                                "ypos"                            "0"
+                                "wide" "f0"
+                                "tall"                             "20"
+                                "proportionaltoparent"                            "1"
+                                "mouseinputenabled"                            "0"
+                            "labeltext"                           "Motion Blur: Refract"
+                                "font"                          "HudFontMediumSmallSecondary"
+                                "fgcolor_override"                              "Fragaccent100"
+         
+                            }
+                            "profilebutton" {
+                                "controlname"                             "ceximagebutton"
+                                "fieldname"                             "profilebutton"
+                                "xpos"                             "5"
+                                "ypos"                             "0"
+                                "wide"                             "f10"
+                             "tall"                            "f1""actionsignallevel" "9"
+                                "proportionaltoparent"                            "1"
+                                "labeltext"                            ""
+                               "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_strength 0;alias motion_blur_level echo motion_blur=refract"
+                                
+                                "paintbackground"                             "0"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+                         
+                        }
+  "3"
+    {
+                            "controlname"                          "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0+p0.25+p0.25"
+                          "ypos"                          "20"
+                            "wide"                           "p0.25"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+                            "bgpanel0" {
+                                "controlname"                              "editablepanel"
+                                "fieldname"                               "bgpanel0"
+                                "xpos"                               "5"
+                                "ypos"                              "0"
+                                "wide"                             "f10"
+                                "tall"                             "f1"
+                                "proportionaltoparent"                             "1"
+                                "mouseinputenabled"                            "0"
+                                "bgcolor_override"                            "0 0 0 255"
+                            }
+                            "name" {                            "controlname"
+                                "cexlabel"
+                                "fieldname"                              "name"
+                                "xpos"                              "10"
+                                "ypos"                            "0"
+                                "wide" "f0"
+                                "tall"                             "20"
+                                "proportionaltoparent"                            "1"
+                                "mouseinputenabled"                            "0"
+                            "labeltext"                       "Motion Blur: Low"
+                                "font"                          "HudFontMediumSmallSecondary"
+                                "fgcolor_override"                              "Fragaccent100"
+         
+                            }
+                            "profilebutton" {
+                                "controlname"                             "ceximagebutton"
+                                "fieldname"                             "profilebutton"
+                                "xpos"                             "5"
+                                "ypos"                             "0"
+                                "wide"                             "f10""actionsignallevel" "9"
+                             "tall"                            "f1"
+                                "proportionaltoparent"                            "1"
+                                "labeltext"                            ""
+                              "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_falling_intensity 0;mat_motion_blur_percent_of_screen_max 1.5;mat_motion_blur_rotation_intensity .05;mat_motion_blur_strength .5;alias motion_blur_level echo motion_blur=low"
+							    
+                                
+                                "paintbackground"                             "0"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+                         
+                        }		
+
+  "4"
+    {
+                            "controlname"                          "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0+p0.25+p0.25+p0.25"
+                          "ypos"                          "20"
+                            "wide"                           "p0.25"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+                            "bgpanel0" {
+                                "controlname"                              "editablepanel"
+                                "fieldname"                               "bgpanel0"
+                                "xpos"                               "5"
+                                "ypos"                              "0"
+                                "wide"                             "f10"
+                                "tall"                             "f1"
+                                "proportionaltoparent"                             "1"
+                                "mouseinputenabled"                            "0"
+                                "bgcolor_override"                            "0 0 0 255"
+                            }
+                            "name" {                            "controlname"
+                                "cexlabel"
+                                "fieldname"                              "name"
+                                "xpos"                              "10"
+                                "ypos"                            "0"
+                                "wide" "f0"
+                                "tall"                             "20"
+                                "proportionaltoparent"                            "1"
+                                "mouseinputenabled"                            "0"
+                            "labeltext"                       "Motion Blur: High"
+                                "font"                          "HudFontMediumSmallSecondary"
+                                "fgcolor_override"                              "Fragaccent100"
+         
+                            }
+                            "profilebutton" {
+                                "controlname"                             "ceximagebutton"
+                                "fieldname"                             "profilebutton"
+                                "xpos"                             "5"
+                                "ypos"                             "0"
+                                "wide"                             "f10""actionsignallevel" "9"
+                             "tall"                            "f1"
+                                "proportionaltoparent"                            "1"
+                                "labeltext"                            ""
+                              "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_falling_intensity 1;mat_motion_blur_falling_max 20;mat_motion_blur_falling_min 10;mat_motion_blur_percent_of_screen_max 2.5;mat_motion_blur_rotation_intensity .05;mat_motion_blur_strength .5;alias motion_blur_level echo motion_blur=high"
+							    
+                                
+                                "paintbackground"                             "0"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+                         
+                        }	
+
+
+                    }
+                }
 
 
 
@@ -12148,7 +12820,12 @@
                     "pin_corner_to_sibling"     "PIN_TOPLEFT"
                     "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
                 }
-                                                                                         																			
+                 "sourcemod"
+                {
+                    "pin_to_sibling"            "mvm"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }                                                                                         																			
             }
 
             "Scrollbar"
@@ -12205,11 +12882,13 @@
 
 				"3"
 			{
+                "controlname" "EditablePanel"
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"9999.0"
-
-
+                "xpos" "cs-0.5"
+                "wide" "f0"
+                "proportionaltoparent" "1"
 
 				"Background"
 				{
@@ -12248,7 +12927,15 @@
 					"alpha" "200"
 				}
 
-
+				"btnpanels"
+				{
+					"ControlName"	"EditablePanel"
+					"xpos"			"cs-0.5"
+					"ypos"			"0"
+					"wide"			"p0.7"
+					"tall"			"f0"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
 				"DEVBTN_POSITION:1"			// other classes pinned to this
 				{
 					ControlName				CExButton
@@ -12260,11 +12947,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"Reload Menu"
@@ -12282,11 +12969,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"Add 24 bots"
@@ -12304,11 +12991,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"Remove all bots"
@@ -12326,11 +13013,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"Reload Game"
@@ -12348,11 +13035,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"+vgui_drawtreee"
@@ -12370,11 +13057,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"Map Background Test"
@@ -12392,11 +13079,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"exec preloader"
@@ -12414,11 +13101,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"mat_reload"
@@ -12436,11 +13123,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"exec Tournament.cfg"
@@ -12458,11 +13145,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"HIDE MENU"
@@ -12480,11 +13167,11 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "AssassinGrade"
+					"defaultfgcolor_override" "Fragaccent100"
+					"armedbgcolor_override" "Fragaccent100"
 
 			
 					labelText				"SHOW MENU"
@@ -12504,12 +13191,12 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "ItemAttribLevel"
+					"defaultfgcolor_override" "Fragaccent100"
 					"armedbgcolor_override" "greensolid"
-
+                    proportionaltoparent "1"
 			
 					labelText				"Preload!!!"
 					Command				"engine exec preloader.cfg"
@@ -12526,12 +13213,12 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
+					"defaultfgcolor_override" "Fragaccent100"
 					"armedbgcolor_override" "greensolid"
-
+    proportionaltoparent "1"
 			
 					labelText				"TrWalkway H1"
 					Command				"engine sv_allow_point_servercommand always; map tr_walkway_h1; exec tr_walkway_h1.cfg"
@@ -12548,12 +13235,12 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
+					"defaultfgcolor_override" "Fragaccent100"
 					"armedbgcolor_override" "greensolid"
-
+proportionaltoparent "1"
 			
 					labelText				"TrWalkway OG"
 					Command				"engine sv_allow_point_servercommand always; map tr_walkway_rc2"
@@ -12570,12 +13257,12 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
+					"defaultfgcolor_override" "Fragaccent100"
 					"armedbgcolor_override" "greensolid"
-
+proportionaltoparent "1"
 			
 					labelText				"Tr_newbots"
 					Command				"engine sv_allow_point_servercommand always; map tr_newbots"
@@ -12592,12 +13279,12 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
+					"defaultfgcolor_override" "Fragaccent100"
 					"armedbgcolor_override" "greensolid"
-
+proportionaltoparent "1"
 			
 					labelText				"Tr Rocket Shooting"
 					Command				"engine sv_allow_point_servercommand always; map tyler_rocket_shooting_v3_regen"
@@ -12614,12 +13301,12 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
+					"defaultfgcolor_override" "Fragaccent100"
 					"armedbgcolor_override" "greensolid"
-
+proportionaltoparent "1"
 			
 					labelText				"Tr Demo Aim"
 					Command				"engine sv_allow_point_servercommand always; map tr_demoaim_v1"
@@ -12636,12 +13323,12 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
+					"defaultfgcolor_override" "Fragaccent100"
 					"armedbgcolor_override" "greensolid"
-
+proportionaltoparent "1"
 			
 					labelText				"Tr Bunny Hop"
 					Command				"engine sv_allow_point_servercommand always; map tr_bhop_v2"
@@ -12658,18 +13345,18 @@
 					zpos	"300"
 					font					"ScoreboardTeamName"
 					textAlignment			center
-					"actionsignallevel"		"4"
+					"actionsignallevel"		"5"
 					paintbackground 			1
 					"defaultbgcolor_override" "Normal"
-					"defaultfgcolor_override" "ItemAttribLevel"
+					"defaultfgcolor_override" "Fragaccent100"
 					"armedbgcolor_override" "greensolid"
-
+proportionaltoparent "1"
 			
 					labelText				"ItemTest"
 					Command				"engine sv_allow_point_servercommand always; map itemtest"
 
 				}
-
+            }
 		}
 	}
 	}

@@ -53,41 +53,9 @@
 			"text_ypos"			"54"
 			"text_center"		"1"
 			"name_only"			"1"
-			
-			"attriblabel"
-			{
-				"font"			"ItemFontAttribLarge"
-				"visible"		"0"
-			}
-			
-			"itemmodelpanel"
-			{
-				"use_item_rendertarget" "0"
-				"allow_rot"				"0"
-			}
+
 		}
 
-		"itemoptionpanels_kv"
-		{
-			"ControlName"	"CExButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"autoResize"	"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"+"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
 	}
 	
 	"CaratLabel"

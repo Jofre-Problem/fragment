@@ -1,8 +1,19 @@
 Scheme
 {
+	BaseSettings
+	{
+		"ItemColor"											"FragSecondary100"	// default 255 167 42 255
+		"MenuColor"											"FragNeutral100"
+		"MenuBoxBg"											"HudBlack"
+		"Menu.TextColor"									"FragNeutral100"
+		"HintMessageFg"										"FragNeutral100"
+		"HintMessageBg" 									"FragSecondary20"
+	}
 	Colors
 	{
-		"ItemSetItemMissing"								"255 38 176 255"  // halloween spells label - item set missing color 
+		"HudBlack"											"23 23 23 205"
+
+		"ItemSetItemMissing"								"255 1 247 110"  // halloween spells label - item set missing color 
     }
 	Borders
 	{
@@ -136,11 +147,12 @@ Scheme
         }			
         "HudHintText" // Scream Fortress Fixes
         {
-            "1" { "name" "tf2 secondary" "tall" "11" "yres" "480 599" "antialias" "1" }
-            "2" { "name" "tf2 secondary" "tall" "11" "yres" "600 767" "antialias" "1" }
-            "3" { "name" "tf2 secondary" "tall" "13" "yres" "768 1023" "antialias" "1" }
-            "4" { "name" "tf2 secondary" "tall" "19" "yres" "1024 1199" "antialias" "1" }
-            "5" { "name"  "tf2 secondary" "tall" "9" "antialias" "1" }
+            "1" { "name"	"tf2 secondary" "tall" "11" "yres" "480 599" "antialias" "1" }
+            "2" { "name"	"tf2 secondary" "tall" "11" "yres" "600 767" "antialias" "1" }
+            "3" { "name"	"tf2 secondary" "tall" "13" "yres" "768 1023" "antialias" "1" }
+            "4" { "name"	"tf2 secondary" "tall" "19" "yres" "1024 1199" "antialias" "1" }
+            "5" { "name" 	"tf2 secondary" "tall" "30" "antialias" "1" }
+			// "5" goes for 5120 x 1440 res and lower.
         }         
 		"ItemFontNameSmall"
 		{

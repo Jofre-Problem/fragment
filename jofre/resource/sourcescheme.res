@@ -13,14 +13,35 @@ Scheme
 		
 		Console.TextColor			"35 240 55 255"
 		Console.DevTextColor		"35 240 55 255"
-		
+		FrameTitleBar.TextColor			"FragPrimary100"
 		MessageDialog.MatchmakingBG			"46 43 42 255"	
 		MessageDialog.MatchmakingBGBlack			"22 22 22 255"			
 		MatchmakingMenuItemTitleColor			"200 184 151 255"
 		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	
-		"QuickListBGDeselected"		"AchievementsDarkGrey"
-	 	"QuickListBGSelected"           "AchievementsLightGrey"		
-	}	
+		"QuickListBGDeselected"		    "AchievementsDarkGrey"
+	 	"QuickListBGSelected"           "AchievementsLightGrey"
+        Tooltip.TextColor	            "White"
+        Tooltip.BgColor	                "FragPrimary100"
+        ListPanel.BgColor   "FragPrimary20"
+        // Console List Panel Dropdown when typing there.
+		Menu.TextColor					"0 0 0 255"
+		Menu.BgColor					"FragPrimary100"
+		Menu.ArmedTextColor				"Black"
+		Menu.ArmedBgColor				"White"
+		Menu.TextInset					"6"
+        ScrollBarSlider.FgColor     "FragPrimary100"
+        SectionedListPanel.DividerColor "FragSecondary100"
+        PropertySheet.SelectedTextColor "FragSecondary100"
+        SectionedListPanel.HeaderTextColor "FragSecondary100"
+        Button.DepressedBgColor "FragPrimary100"
+        Button.DepressedFgColor "0 0 0 255"
+        CheckButton.BgColor "0 0 0 255"
+	}	 
+	Borders
+	{
+        
+        ListPanelBorder "FrameBorder"
+	}
 	Fonts
 	{
 		"Default"

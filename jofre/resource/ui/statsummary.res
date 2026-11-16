@@ -115,7 +115,7 @@
 				"font"			"DefaultVerySmall"
 				"labelText"		"#TF_Contributed"
 				"textAlignment"	"center"
-				"fgcolor"		"ItemAttribLevel"
+				"fgcolor"		"Fragprimary100"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"40"
@@ -173,7 +173,7 @@
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "yellow"
+		"fgcolor_override" "FragSecondary100"
 	}		
 
 	
@@ -191,7 +191,7 @@
 		"tall"				"24"
 		"AllCaps"			"1"
 		"fgcolor_override"	"Normal"
-		"bgcolor_override"	"ItemAttribLevel"
+		"bgcolor_override"	"Fragprimary100"
 				"proportionaltoparent"	"1"
 		"text_center"			"1"
 		"textinsetx"			"28"
@@ -227,7 +227,7 @@
 		
 		"visible"		"1"
 		//"enabled"		"1"
-		"fgcolor" 		"ItemAttribLevel"
+		"fgcolor" 		"Fragprimary100"
 	}			
 	"TipImage"
 	{
@@ -346,7 +346,7 @@
 		"tall"			"36"
 		"visible"		"0"
 		"font"	"HudFontSmallishBold"
-		"labelText"		"Credits to: JarateKing, Hypnotize, Peaches, Lead, Yellow Devil, Sgtjoe, etc"
+		"labelText"		"Credits to: JarateKing, Hypnotize, Peaches, Lead, FragSecondary100 Devil, Sgtjoe, etc"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 	}

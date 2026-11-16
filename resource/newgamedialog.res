@@ -22,7 +22,7 @@
 		"ypos"		"0"
 		"zpos"		"9999"
 		"wide"		"18"
-		"tall"		"50"
+		"tall"		"150"
 	}		
 	"frame_topGrip"
 	{
@@ -32,7 +32,7 @@
 		"ypos"		"0"
 		"zpos"		"9999"
 		"wide"		"18"
-		"tall"		"50"
+		"tall"		"150"
 	}	
 	"frame_brGrip"
 	{

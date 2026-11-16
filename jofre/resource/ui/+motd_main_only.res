@@ -50,7 +50,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"ItemAttribLevel"
+						"fgcolor_override"	"FragPrimary10"
 						"alpha" "100"
 						"bgcolor_override"	"Blank"
 					}
@@ -133,7 +133,7 @@
 				"enabled"		"1"
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 0"
-				"fgcolor"		"FragAccent100"
+				"fgcolor"		"FragPrimary100"
 				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"west"
 
@@ -244,8 +244,10 @@
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"			
+					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    		
 
                         
                     }
@@ -286,8 +288,10 @@
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "ʏ"
 								textAlignment center
 								 "font"                      "itemfontnamelarge"
@@ -308,7 +312,9 @@
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"HUDRedTeamSolid"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "ʏ ы"
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
@@ -337,7 +343,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine +STASTO"
 	"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}
 		"Stop"			// other classes pinned to this
@@ -356,7 +362,7 @@
 		Command				"engine +recreset"
 		"border_default"	"GrayDialogBorder"
 		"proportionaltoparent"                            "1"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}			
 		"statu"			// other classes pinned to this
@@ -374,7 +380,7 @@
 		"proportionaltoparent"                            "1"
 		"actionsignallevel"		"9"
 		Command				"engine ds_status"
-		defaultbgcolor_override "ItemAttribLevel"
+		defaultbgcolor_override "FragPrimary10"
 		defaultfgcolor_override "Black"
 		paintbackground 			1
 	}	
@@ -394,7 +400,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine +next"
 		"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}	
 		"Rec_prev_slot"			// other classes pinned to this
@@ -412,7 +418,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine +prev"
 		"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}	
 		"Rec_Category_Funny"			// other classes pinned to this
@@ -430,7 +436,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine +reccatfun"
 		"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}
 		"Rec_Category_Random"			// other classes pinned to this
@@ -448,7 +454,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine +reccatrandom"
 		"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}			
 		"Rec_Category_casual"			// other classes pinned to this
@@ -466,7 +472,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine +reccatcasual"
 		"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}		
 		"Rec_Category_comp"			// other classes pinned to this
@@ -484,7 +490,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine +reccatcomp"
 		"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}		
 		"Rec_Category_comunidad"			// other classes pinned to this
@@ -502,7 +508,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine +reccatcommu"
 		"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}		
 		"Rec_Category_vsh"			// other classes pinned to this
@@ -520,7 +526,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine +reccatvsh"
 		"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}			
 		"Rec_CurrentMAP"			// other classes pinned to this
@@ -533,11 +539,11 @@
 		"tall"							"26"
 	zpos	"100"
 		labelText				"Ȩ"
-		font					"scoreboardmedium"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +recmapname"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}				
 		"ScoutButton"			// other classes pinned to this
@@ -727,8 +733,10 @@
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Manually set Demos"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -749,7 +757,9 @@
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"HUDRedTeamSolid"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "ALL demos automatically"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -805,7 +815,7 @@
                         "wide"                      "f0"
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
-         			"font"						"scoreboardmedium"
+         			"font"						"betafont"
 				"labelText"					"ǫ"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
@@ -815,8 +825,10 @@
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"			
+					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    		
 
                         
                     }
@@ -847,7 +859,7 @@
 		Command				"engine echo lol" //+voicerecord"
 proportionaltoparent 1
 				"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}	
 		"-voice"			// other classes pinned to this
@@ -866,7 +878,7 @@ proportionaltoparent 1
 		Command				"engine -voicerecord"
 	proportionaltoparent 1
 				"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}		
 		"-voiceloop"			// other classes pinned to this
@@ -886,7 +898,7 @@ proportionaltoparent 1
 		Command				"engine toggle voice_loopback"
 
 				"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}						
 					 }
@@ -944,10 +956,10 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"			
-
-                        
+					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    		  
                     }
 
                     "Sections"
@@ -978,7 +990,7 @@ proportionaltoparent 1
 		Command				"engine stop;record null; stop"
 
 				"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}				
 		"Stuckspec"			// other classes pinned to this
@@ -998,7 +1010,7 @@ proportionaltoparent 1
 		Command				"engine jointeam red; joinclass sniper"
 
 				"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}		
 		"mvmfix"			// other classes pinned to this
@@ -1018,7 +1030,7 @@ proportionaltoparent 1
 		Command				"engine hud_reloadscheme"
 
 				"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}	
 					}
@@ -1075,8 +1087,10 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"			
+					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    		
 
                         
                     }
@@ -1108,7 +1122,7 @@ proportionaltoparent 1
 		Command				"engine next_map_vote 0"
 
 				"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}					
 		"vote12"			// other classes pinned to this
@@ -1128,7 +1142,7 @@ proportionaltoparent 1
 		Command				"engine next_map_vote 0"
 
 				"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}		
 		"vote123"			// other classes pinned to this
@@ -1148,7 +1162,7 @@ proportionaltoparent 1
 		Command				"engine next_map_vote 2"
 
 				"border_default"	"GrayDialogBorder"
-		"border_armed"	"StoreFreeTrialBorder"	
+		"border_armed"	"FragCharInfoButtonBottom"	
 		paintbackground 			0
 	}									
 			
@@ -1232,7 +1246,7 @@ proportionaltoparent 1
 
 					"Slider"
 					{
-						"fgcolor_override"	"ItemAttribLevel"
+						"fgcolor_override"	"FragPrimary10"
 						"alpha" "100"
 						"bgcolor_override"	"Blank"
 					}
@@ -1312,7 +1326,7 @@ proportionaltoparent 1
 				"enabled"		"1"
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 0"
-				"fgcolor"		"FragAccent100"
+				"fgcolor"		"FragPrimary100"
 				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"west"
 
@@ -1423,8 +1437,10 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"			
+					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    		
 
                         
                     }
@@ -1460,7 +1476,7 @@ proportionaltoparent 1
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "ItemAttribLevel"
+                                "fgcolor_override"                              "FragPrimary10"
 	visible 0
                             }
                             "profilebutton" {
@@ -1497,7 +1513,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle voice_modenable"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1538,7 +1554,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 	}
 
 	"VoiceSlider"
@@ -1570,7 +1586,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle tf_contract_progress_show"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1612,7 +1628,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle cl_enable_text_chat"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1654,7 +1670,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 	}
 	"TextChatSlider"
 	{
@@ -1684,7 +1700,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle cl_notifications_show_ingame"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1725,7 +1741,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 	}
 
 	"NotificationsSlider"
@@ -1757,7 +1773,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle closecaption"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1797,7 +1813,7 @@ proportionaltoparent 1
 		"tall"		"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 	
 	}
@@ -1831,7 +1847,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle tf_use_match_hud"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1871,7 +1887,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle cl_flipviewmodels;record flip;stop"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1910,7 +1926,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle cl_hud_minmode"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1950,7 +1966,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle voice_loopback"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1990,7 +2006,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle crosshair"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2034,7 +2050,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 
 	}
@@ -2067,7 +2083,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle hud_combattext;hud_combattext_batching 1"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2112,7 +2128,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle hud_combattext_batching"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2154,7 +2170,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 
 	}
@@ -2187,7 +2203,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 	
 	}
@@ -2222,7 +2238,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 	}
 
@@ -2254,7 +2270,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 	}
 
@@ -2287,7 +2303,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 
 	}
@@ -2321,7 +2337,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle tf_dingalingaling"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2363,7 +2379,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 	}
 
@@ -2396,7 +2412,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 
 	}
@@ -2430,7 +2446,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 	}
 
@@ -2462,7 +2478,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 		"Command"		"engine toggle tf_dingalingaling_lasthit"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2504,7 +2520,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 	
 	}
@@ -2537,7 +2553,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 
 	}
 
@@ -2570,7 +2586,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribLevel"
+		"fgcolor"		"FragPrimary10"
 	}
 
 	"KillSoundMaxSlider"
@@ -2658,8 +2674,10 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"			
+					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    		
 
                         
                     }
@@ -2696,8 +2714,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Win"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2731,8 +2751,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Lose"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2765,8 +2787,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "I forgot to do the bookmark earlier..."
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2799,8 +2823,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Delete this demo! Waste of space."
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2871,8 +2897,8 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+					"defaultfgcolor_override"					"FragPrimary100"
+				"defaultbgcolor_override"			"FragSecondary20"			
 
                         
                     }
@@ -2911,8 +2937,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Pre-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2932,8 +2960,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "First-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2953,8 +2983,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Second-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2974,8 +3006,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Third-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2995,8 +3029,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Fourth-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3016,8 +3052,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "1k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3037,8 +3075,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                           "2k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3058,8 +3098,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "3k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3079,8 +3121,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                           "4k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3109,8 +3153,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "5k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3130,8 +3176,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                           "6k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3151,8 +3199,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "7k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3172,8 +3222,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                           "8k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3194,8 +3246,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "9000 Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3217,7 +3271,9 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"ItemAttribNegative"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Hiding"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3239,8 +3295,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Miracle Moment"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3260,8 +3318,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Stupid Moment"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3282,8 +3342,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Spectating Someone"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3303,8 +3365,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Spec Hale"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3325,8 +3389,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "I am Hale!"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3346,8 +3412,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "I'm Last One Alive"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3372,8 +3440,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "30min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3393,8 +3463,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                           "25min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3414,8 +3486,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "20min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3435,8 +3509,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                           "15min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3465,8 +3541,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "10min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3486,8 +3564,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                           "5min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3507,8 +3587,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Last"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3528,8 +3610,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                           "wtf?"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3599,8 +3683,8 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+					"defaultfgcolor_override"					"FragPrimary100"
+				"defaultbgcolor_override"			"FragSecondary20"			
 
                         
                     }
@@ -3637,8 +3721,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "5.Killstreak"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3660,8 +3746,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "10 Killstreak"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3683,8 +3771,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "15 Killstreak"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3706,8 +3796,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "20 Killstreak"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3731,8 +3823,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Dominating"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3754,8 +3848,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Killing_Spree"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3777,8 +3873,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "God-Like"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3800,8 +3898,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Monster-Kill"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3911,8 +4011,10 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"			
+					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    		
 
                         
                     }
@@ -3990,8 +4092,8 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+					"defaultfgcolor_override"					"FragPrimary100"
+				"defaultbgcolor_override"			"FragSecondary20"			
 
                         
                     }
@@ -4030,8 +4132,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "█ [#1] MULTIMOD | Servilive | Comunidad Latinoamericana"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4051,7 +4155,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4074,7 +4178,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4097,8 +4201,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "skial.com | FREAK FORTRESS | NY ██"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4118,7 +4224,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4141,7 +4247,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4164,7 +4270,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4187,8 +4293,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "RU █ CHILLOUT.PW █ Freak Fortress"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4208,7 +4316,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4231,7 +4339,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4254,7 +4362,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4277,7 +4385,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4301,8 +4409,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress #1|"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4322,7 +4432,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4345,7 +4455,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4368,7 +4478,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4391,7 +4501,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4414,8 +4524,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress X10|"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4435,7 +4547,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4458,7 +4570,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4481,8 +4593,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "[MULTIMOD] WineWald | Freak Fortress 2"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4502,7 +4616,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4525,7 +4639,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4548,8 +4662,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Versus Ponyville Reborn | Custom FF2"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4569,7 +4685,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4592,7 +4708,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4615,8 +4731,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Big Bang Gamers | Freak Fortress 2"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4692,8 +4810,8 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+					"defaultfgcolor_override"					"FragPrimary100"
+				"defaultbgcolor_override"			"FragSecondary20"			
 
                         
                     }
@@ -4731,8 +4849,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Liquid.TF"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -4762,7 +4882,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4786,7 +4906,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4802,8 +4922,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "UGC.TF | Trade #11 | FREE ITEMS! - !givemeall"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -4825,8 +4947,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "skial.com | TRADE | US █████"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -4848,8 +4972,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "SickFrags.com #1 | Public Strange Farming"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -4879,7 +5005,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4903,7 +5029,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -4966,8 +5092,8 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+					"defaultfgcolor_override"					"FragPrimary100"
+				"defaultbgcolor_override"			"FragSecondary20"			
 
                         
                     }
@@ -5005,8 +5131,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-								"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+												"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "SuperTest V-Script"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -5037,7 +5165,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5061,7 +5189,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5085,7 +5213,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5172,8 +5300,10 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"			
+					"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    		
 
                         
                     }
@@ -5251,8 +5381,8 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+					"defaultfgcolor_override"					"FragPrimary100"
+				"defaultbgcolor_override"			"FragSecondary20"			
 
                         
                     }
@@ -5291,8 +5421,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "ķ SuperTest V-Script ķ"
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
@@ -5312,7 +5444,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5336,8 +5468,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "ϰ Itemtest Unusual"
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
@@ -5357,7 +5491,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5380,8 +5514,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "ϰ The Casual Itemtest"
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
@@ -5401,7 +5537,7 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5480,8 +5616,8 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+					"defaultfgcolor_override"					"FragPrimary100"
+				"defaultbgcolor_override"			"FragSecondary20"			
 
                         
                     }
@@ -5519,8 +5655,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Liquid.TF"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -5550,7 +5688,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5574,7 +5712,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5590,8 +5728,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "UGC.TF | Trade #11 | FREE ITEMS! - !givemeall"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -5613,8 +5753,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "skial.com | TRADE | US █████"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -5636,8 +5778,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+								"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "SickFrags.com #1 | Public Strange Farming"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -5667,7 +5811,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5691,7 +5835,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5754,8 +5898,8 @@ proportionaltoparent 1
 							"wide"						"293"
 
 				"textAlignment"				"center"
-					"defaultfgcolor_override"					"FragAccent100"
-				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+					"defaultfgcolor_override"					"FragPrimary100"
+				"defaultbgcolor_override"			"FragSecondary20"			
 
                         
                     }
@@ -5793,8 +5937,10 @@ proportionaltoparent 1
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
-								"defaultfgcolor_override"					"FragAccent100"
-								"defaultbgcolor_override"			"ItemAttribLevel"		
+								"defaultfgcolor_override"					"FragPrimary100"
+												"defaultbgcolor_override"			"FragPrimary10"			
+				"depressedfgcolor_override" "FragNeutral100"
+                "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "SuperTest V-Script"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -5825,7 +5971,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5849,7 +5995,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	
@@ -5873,7 +6019,7 @@ proportionaltoparent 1
                                  
                                 
                                 "paintbackground"                             "1"
-								"defaultfgcolor_override"					"FragAccent100"
+								"defaultfgcolor_override"					"FragPrimary100"
 				"defaultbgcolor_override"			"188 183 183 255"
 				"depressedfgcolor_override" "254 172 32 255"	
 					"depressedbgcolor_override" "214 70 40 255"	

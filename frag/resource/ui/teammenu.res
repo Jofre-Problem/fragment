@@ -4,7 +4,15 @@
     {
         "paintbackground"   "0"
     }
-
+	"SpectateShortKey"
+	{
+		"ControlName"								"Button"
+		"fieldName"									"SpectateShortKey"
+		"xpos"										"9999"
+		"labelText"									"&2"
+		"Command"									"jointeam spectate"
+		"visible"									"1"
+	}
     "Refract"
     {
         "ControlName"       "ImagePanel"
