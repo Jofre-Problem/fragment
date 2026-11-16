@@ -695,7 +695,70 @@ pin_to_sibling spylabel
 		                         "image_default"	"replay/thumbnails/null"
 		                         "image_armed"	"replay/thumbnails/null"
 	}
+    "RandomButton"
+    {
+        "ControlName"               "CExButton"
+        "fieldName"                 "RandomButton"
+        "xpos"                      "rs1"
+        "ypos"                      "rs1"
+        "zpos"                      "6"
+        "wide"                      "40"
+        "tall"                      "40"
+        "pinCorner"                 "0"
+        "labelText"                 "r"
+        "font"                      "Icons_Medium"
+        "textAlignment"             "center"
+        "command"                   "joinclass random"
+        "sound_depressed"           "UI/buttonclick.wav"
+        "sound_released"            "UI/buttonclickrelease.wav"
 
+        "fgcolor"                   "FragNeutral100"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
+        "defaultfgcolor_override"   "FragNeutral100"
+        "armedfgcolor_override"     "FragNeutral100"
+        "paintBackground"           "1"
+
+    }
+    "BottomBackground"
+    {
+        "ControlName"       "Panel"
+        "fieldName"         "BottomBackground"
+        "xpos"              "rs1"
+        "ypos"              "rs1"
+        "zpos"              "4"
+        "wide"              "40"
+        "tall"              "f0"
+        "bgcolor_override"  "FragPanelTransparentDark80"
+    }
+    "EditLoadoutButton"
+    {
+        "ControlName"               "CExButton"
+        "fieldName"                 "EditLoadoutButton"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "zpos"                      "6"
+        "wide"                      "40"
+        "tall"                      "40"
+        "pinCorner"                 "0"
+        "labelText"                 "I"
+        "font"                      "Icons_Medium"
+        "textAlignment"             "center"
+        "command"                   "openloadout"
+        "sound_depressed"           "UI/buttonclick.wav"
+        "sound_released"            "UI/buttonclickrelease.wav"
+
+        "fgcolor"                   "FragNeutral100"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
+        "defaultfgcolor_override"   "FragNeutral100"
+        "armedfgcolor_override"     "FragNeutral100"
+        "paintBackground"           "1"
+
+        "pin_to_sibling"                "BottomBackground"
+    }
 	                          "pyro_extra_0"
 	{
 		ControlName				CExButton

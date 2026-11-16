@@ -6,11 +6,11 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"9"
-		"ypos"			"325"
+		"ypos"			"1"
 		"ypos_minmode" "rs1+55"
 		"zpos"			"0"
-		"wide"			"p0.8"
-		"tall" "100"	
+		"wide"			"f0"
+		"tall" "480"	
 	}
 	HudScope
 	{

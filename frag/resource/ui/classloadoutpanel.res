@@ -647,6 +647,10 @@
 			textinsetx -2
 			proportionaltoparent "1"
 			paintBackground 1
+            "defaultbgcolor_override"   "FragPanelTransparentDark40"
+            "armedbgcolor_override"     "FragPanelTransparentDark60"
+            "defaultfgcolor_override"   "FragNeutral100"
+            "armedfgcolor_override"     "FragNeutral100"			
 			pin_to_sibling "pinnermodel"
 			"pin_corner_to_sibling"         "1"
         	"pin_to_sibling_corner"         "3" 
@@ -821,7 +825,6 @@
 		"font"			"ItemFontAttribLarge"
 		"xpos"			"c-135"
 		"ypos"			"130"
-		"zpos"			"2220"	
 		"wide"			"270"
 		"tall"			"240"
 		"autoResize"	"0"

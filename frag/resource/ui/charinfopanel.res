@@ -154,7 +154,7 @@
         {
             "textinsetx"                    "0"
             "textinsety"                    "0"
-            "font"                          "FontMedium_12"
+            "font"                          "itemfontnamesmall"
             "selectedcolor"                 "FragNeutral100"
             "unselectedcolor"               "FragNeutral20"
             "activeborder_override"         "NoBorder"
