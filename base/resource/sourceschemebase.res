@@ -267,7 +267,6 @@ Scheme
 				"tall"		"11" [$OSX]
 				"tall"		 "10"
 				"tall_lodef" "15"
-				"tall_hidef" "20"
 				"weight"	 "0"
 				"outline"	 "1"
 			}
@@ -373,7 +372,6 @@ Scheme
 			{
 				"name"			"Tahoma"
 				"tall"			"20"
-				"tall_hidef"	"28"
 				"weight"		"2000"
 				"outline"		"1"
 			}
@@ -384,7 +382,6 @@ Scheme
 			{
 				"name"			"Tahoma"
 				"tall"			"20"
-				"tall_hidef"	"28"
 				"weight"		"2000"
 				"blur"			"3"
 				"blur_hidef"	"5"
@@ -416,7 +413,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"			"14"
-				"tall_hidef"	"20"
 				"weight"	"1200"
 				"antialias" "1"
 				"outline" "1"
@@ -706,7 +702,6 @@ Scheme
 			{
 				"name"			"Trebuchet MS"
 				"tall"			"16"
-				"tall_hidef"	"24"
 				"weight"		"900"
 				"antialias"		"1"
 			}
@@ -718,7 +713,6 @@ Scheme
 			{
 				"name"			"Trebuchet MS"
 				"tall"			"16"
-				"tall_hidef"	"24"
 				"weight"		"900"
 				"blur"			"3"
 				"blur_hidef"	"5"

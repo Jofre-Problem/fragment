@@ -147,11 +147,11 @@ Scheme
         }			
         "HudHintText" // Scream Fortress Fixes
         {
-            "1" { "name"	"tf2 secondary" "tall" "11" "yres" "480 599" "antialias" "1" }
-            "2" { "name"	"tf2 secondary" "tall" "11" "yres" "600 767" "antialias" "1" }
-            "3" { "name"	"tf2 secondary" "tall" "13" "yres" "768 1023" "antialias" "1" }
-            "4" { "name"	"tf2 secondary" "tall" "19" "yres" "1024 1199" "antialias" "1" }
-            "5" { "name" 	"tf2 secondary" "tall" "30" "antialias" "1" }
+            "1" { "name"	"hwnjofre1" "tall" "11" "yres" "480 599" "antialias" "1" }
+            "2" { "name"	"hwnjofre1" "tall" "11" "yres" "600 767" "antialias" "1" }
+            "3" { "name"	"hwnjofre1" "tall" "13" "yres" "768 1023" "antialias" "1" }
+            "4" { "name"	"hwnjofre1" "tall" "19" "yres" "1024 1199" "antialias" "1" }
+            "5" { "name" 	"hwnjofre1" "tall" "30" "antialias" "1" }
 			// "5" goes for 5120 x 1440 res and lower.
         }         
 		"ItemFontNameSmall"

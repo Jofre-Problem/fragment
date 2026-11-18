@@ -238,7 +238,6 @@
 		"wide"			"f0"
 		"tall"			"50"
 		"tall_lodef"			"74"
-		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

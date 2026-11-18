@@ -72,7 +72,6 @@
 				"zpos"			"6"
 				"wide"			"112"
 				"tall"			"18"
-				"tall_hidef"		"24"
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"visible"		"1"

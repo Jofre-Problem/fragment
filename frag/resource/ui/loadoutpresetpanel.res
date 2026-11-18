@@ -18,9 +18,9 @@
             "tall"                      "20"
             "proportionaltoparent"      "1"
 
-            "labeltext"                 "A"
+            "labeltext"                 "с"
             "textAlignment"             "center"
-            "font"                      "FontMedium_12"
+            "font"                      "QuestStickyText"
 
             "command"                   "loadpreset_0"
 
@@ -39,9 +39,9 @@
             "tall"                      "20"
             "proportionaltoparent"      "1"
 
-            "labeltext"                 "B"
+            "labeltext"                 "т"
             "textAlignment"             "center"
-            "font"                      "FontMedium_12"
+            "font"                      "QuestStickyText"
 
             "command"                   "loadpreset_1"
 
@@ -64,9 +64,9 @@
             "tall"                      "20"
             "proportionaltoparent"      "1"
 
-            "labeltext"                 "C"
+            "labeltext"                "у"
             "textAlignment"             "center"
-            "font"                      "FontMedium_12"
+            "font"                      "QuestStickyText"
 
             "command"                   "loadpreset_2"
 
@@ -89,9 +89,9 @@
             "tall"                      "20"
             "proportionaltoparent"      "1"
 
-            "labeltext"                 "D"
+            "labeltext"                "ф"
             "textAlignment"             "center"
-            "font"                      "FontMedium_12"
+            "font"                      "QuestStickyText"
 
             "command"                   "loadpreset_3"
 

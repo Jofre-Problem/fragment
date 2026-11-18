@@ -82,7 +82,6 @@
 		"wide_minmode"	"300"
 		"wide"			"400"	[$X360]
 		"tall"			"18"
-		"tall_hidef"		"23"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -126,7 +125,6 @@
 		"wide"			"240"	[$WIN32]
 		"wide"			"220"	[$X360]
 		"tall"			"20"
-		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -306,7 +304,6 @@
 		"wide_hidef"	"230"
 		"wide_lodef"	"240"
 		"tall"			"64"
-		"tall_hidef"	"70"
 		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"

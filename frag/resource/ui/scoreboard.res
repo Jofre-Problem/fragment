@@ -9,7 +9,7 @@
         "medal_width"               "20"
         "avatar_width"              "55"
         "spacer"                    "5"
-        "name_width"                "120"
+        "name_width"                "160"
         "killstreak_width"          "15"
         "killstreak_image_width"    "15"
         "medal_width"        "28"

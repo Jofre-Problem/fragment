@@ -739,7 +739,7 @@
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Manually set Demos"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
                                "command"   "engine ds_enable 0"                        
 							     
                                  
@@ -762,7 +762,7 @@
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "ALL demos automatically"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
 								 
                                "command"   "engine ds_enable 2"                        
 							     
@@ -1586,7 +1586,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle tf_contract_progress_show"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1628,7 +1628,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle cl_enable_text_chat"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1670,7 +1670,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 	}
 	"TextChatSlider"
 	{
@@ -1700,7 +1700,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle cl_notifications_show_ingame"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1741,7 +1741,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 	}
 
 	"NotificationsSlider"
@@ -1773,7 +1773,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle closecaption"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1813,7 +1813,7 @@ proportionaltoparent 1
 		"tall"		"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 	
 	}
@@ -1847,7 +1847,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle tf_use_match_hud"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1887,7 +1887,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle cl_flipviewmodels;record flip;stop"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1926,7 +1926,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle cl_hud_minmode"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1966,7 +1966,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle voice_loopback"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2006,7 +2006,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle crosshair"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2050,7 +2050,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 
 	}
@@ -2083,7 +2083,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle hud_combattext;hud_combattext_batching 1"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2128,7 +2128,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle hud_combattext_batching"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2170,7 +2170,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 
 	}
@@ -2203,7 +2203,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 	
 	}
@@ -2238,7 +2238,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 	}
 
@@ -2270,7 +2270,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 	}
 
@@ -2303,7 +2303,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 
 	}
@@ -2337,7 +2337,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle tf_dingalingaling"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2379,7 +2379,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 	}
 
@@ -2412,7 +2412,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 
 	}
@@ -2446,7 +2446,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 	}
 
@@ -2478,7 +2478,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 		"Command"		"engine toggle tf_dingalingaling_lasthit"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2520,7 +2520,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 	
 	}
@@ -2553,7 +2553,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 
 	}
 
@@ -2586,7 +2586,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"FragPrimary10"
+		"fgcolor"		"FragNeutral100"
 	}
 
 	"KillSoundMaxSlider"
@@ -4138,7 +4138,7 @@ proportionaltoparent 1
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "█ [#1] MULTIMOD | Servilive | Comunidad Latinoamericana"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
                                "command"   "engine connect 45.235.98.222:27080"                        
 							     
                                  
@@ -4207,7 +4207,7 @@ proportionaltoparent 1
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "skial.com | FREAK FORTRESS | NY ██"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
                                "command"   "engine connect 91.216.250.54:27015"                        
 							     
                                  
@@ -4299,7 +4299,7 @@ proportionaltoparent 1
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "RU █ CHILLOUT.PW █ Freak Fortress"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
                                "command"   "engine connect s2.chillout.pw:27017"                        
 							     
                                  
@@ -4415,7 +4415,7 @@ proportionaltoparent 1
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress #1|"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
                                "command"   "engine connect 74.91.119.154:27016"                        
 							     
                                  
@@ -4530,7 +4530,7 @@ proportionaltoparent 1
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress X10|"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
                                "command"   "engine connect 145.239.70.42:27019"                        
 							     
                                  
@@ -4599,7 +4599,7 @@ proportionaltoparent 1
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "[MULTIMOD] WineWald | Freak Fortress 2"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
                                "command"   "engine connect 45.235.99.105:27318"                        
 							     
                                  
@@ -4668,7 +4668,7 @@ proportionaltoparent 1
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Versus Ponyville Reborn | Custom FF2"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
                                "command"   "engine connect 192.223.29.143:27015"                        
 							     
                                  
@@ -4737,7 +4737,7 @@ proportionaltoparent 1
                 "depressedbgcolor_override" "FragNeutral100"    	
                                 "labeltext"                            "Big Bang Gamers | Freak Fortress 2"
 								textAlignment center
-								 "font"                      "FontCartPrice"
+								 "font"                      "StorePromotionsTitle"
                                "command"   "engine connect 136.47.136.13:27015"                        
 							     
                                  
